@@ -1,0 +1,41 @@
+main {
+  .color-selection > div {
+    width: 26px;
+    height: 26px;
+    box-sizing: content-box;
+    // &.active-circle {
+    //   border: 3px solid #f16422;
+    // }
+  }
+  .bg-black {
+    background-color: #333;
+  }
+  .bg-brown {
+    background-color: #ae9b7b;
+  }
+  .bg-red {
+    background-color: #a51313;
+  }
+  .bg-orange {
+    background-color: #f18d5e;
+  }
+  .bg-blue {
+    background-color: #5e7ef0;
+  }
+  .custom-height {
+    height: 52px;
+  }
+  .product-related-arrow {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .tag-icon {
+    right: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+  }
+}

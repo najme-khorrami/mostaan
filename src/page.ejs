@@ -1,0 +1,117 @@
+<% include /src/include/header.ejs %>
+<main class="Site-content">
+  <div class="container my-4">
+    <div class="row">
+      <div class="col-12 col-lg-5">
+        <div class="row text-center">
+          <div class="col-4 col-lg-4">
+            <div class="d-flex flex-column justify-content-between h-100 align-items-end">
+              <div class="rounded-3">
+                <img src="./images/image 18.svg" class="img-fluid" alt="" />
+              </div>
+              <div class="rounded-3">
+                <img src="./images/image 17.svg" class="img-fluid" alt="" />
+              </div>
+              <div class="rounded-3">
+                <img src="./images/image 20.svg" class="img-fluid" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col-8 col-lg-8">
+            <div class="rounded-3 text-start position-relative">
+              <img src="./images/image 19.svg" class="img-fluid" alt="" />
+              <div class="position-absolute tag-icon top-0">
+                <img src="./images/tag.svg" alt="">
+                <span class="position-absolute  text-center">30٪ تخفیف
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-7 ps-4 mt-5 mt-lg-0">
+        <div class="d-flex flex-column justify-content-between h-100">
+          <div class="d-flex flex-column flex-lg-row">
+            <h4 class="fw-bold text-center text-lg-start">کیف پول زنانه Hermes (کد 120)</h4>
+            <div class="ps-3 text-center text-lg-start">
+              <span class="text-primary fs-5 fw-bold">تومان ۲۶۰/۰۰۰</span>
+              <span class="text-muted text-decoration-line-through fs-7 ps-1">تومان ۴۱۰/۰۰۰</span>
+            </div>
+          </div>
+        <ul class="list-unstyled lh-lg pt-3">
+          <li>
+            <span class="fw-bold">توضیحات محصول</span>
+          </li>
+          <li><span class="fw-bold">مدل: </span><span>Sandal (صندل)</span></li>
+          <li>
+            <span class="fw-bold">مدل نوک: </span
+            ><span> Open Toe (جلو باز)</span>
+          </li>
+          <li>
+            <span class="fw-bold">مدل پاشنه: </span
+            ><span>Flat Heel(پاشنه یکسره)</span>
+          </li>
+          <li>
+            <span class="fw-bold">نوع کفی: </span
+            ><span>معمولی (غیرقابل جدا شدن)</span>
+          </li>
+          <li><span class="fw-bold">جنس کفی: </span><span>پارچه ای</span></li>
+          <li>
+            <span class="fw-bold">جزئیات مدل: </span><span>
+              دارای رویه پارچه ای، دارای آستر تهیه شده از چرم مصنوعی با
+              کیفیت،استفاده از طرح های سنتی شماره دوزی برای تزئین رویه.</span>
+          </li>
+        </ul>
+        <div class="row">
+          <div class="col-auto col-lg-12 order-2 order-lg-1">
+          <div class="color-selection d-flex align-items-baseline pb-4">
+            <div class="color-item bg-black rounded-circle me-3 active-circle"></div>
+            <div class="color-item bg-brown rounded-circle me-3"></div>
+            <div class="color-item bg-red rounded-circle me-3"></div>
+            <div class="color-item bg-orange rounded-circle me-3"></div>
+            <div class="color-item bg-blue rounded-circle me-3"></div>
+          </div>
+          </div>
+          <div class="col-auto order-1 order-lg-2">
+          <div class="num-selection border border-1 border-dark rounded-3 d-flex fs-4">
+            <div class="py-1 px-2 decrease">-</div>
+            <div class="border py-1 px-3 number">۱</div>
+            <div class="py-1 px-2 increase">+</div>
+          </div>
+          </div>
+          <div class="col-12 col-lg-auto order-3">
+          <div>
+            <button class="text-white custom-btn py-2 px-3 btn rounded-3 custom-height w-100 mt-3 mt-lg-0">
+              افزودن به سبد خرید
+            </button>
+          </div>
+          </div>
+        </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="d-flex mt-3">
+        <img src="./images/mark.png" alt="" />
+        <span class="text-secondary fs-3 ps-2">محصولات مشابه</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="position-relative">
+        <div class="related-slider ms-lg-4 me-lg-2">
+          <% include /src/include/product-box.ejs %> 
+          <% include /src/include/product-box.ejs %>
+          <% include /src/include/product-box.ejs %> 
+          <% include /src/include/product-box.ejs %>
+          <% include /src/include/product-box.ejs %>
+        </div>
+        <div class="product-related-arrow d-none d-lg-flex w-100 h-100"></div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<% include /src/include/footer.ejs %>

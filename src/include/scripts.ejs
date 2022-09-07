@@ -1,0 +1,135 @@
+<script
+  type="text/javascript"
+  src="https://code.jquery.com/jquery-1.11.0.min.js"
+></script>
+<script
+  type="text/javascript"
+  src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<script
+  type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+></script>
+<script>
+  $(document).ready(function () {
+    $(".discount-slider").slick({
+      rtl: true,
+      infinite: true,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      arrows: false,
+      dots: false,
+      speed: 300,
+      autoplay: false,
+      cssEase: "ease-in-out",
+      responsive: [
+        {
+          breakpoint: 1200,
+          settings: {
+            slidesToShow: 3,
+          },
+        },
+        {
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2.1,
+          },
+        },
+      ],
+    });
+  });
+</script>
+<script>
+  $(document).ready(function () {
+    $(".new-slider").slick({
+      rtl: true,
+      infinite: true,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      arrows: false,
+      dots: false,
+      speed: 300,
+      autoplay: false,
+      cssEase: "ease-in-out",
+      responsive: [
+        {
+          breakpoint: 1200,
+          settings: {
+            slidesToShow: 3,
+          },
+        },
+        {
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2.1,
+          },
+        },
+      ],
+    });
+  });
+</script>
+<script>
+  $(document).ready(function () {
+    $(".discount-slider").slick({
+      rtl: true,
+      infinite: true,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      arrows: false,
+      dots: false,
+      speed: 300,
+      autoplay: false,
+      cssEase: "ease-in-out",
+      responsive: [
+        {
+          breakpoint: 1200,
+          settings: {
+            slidesToShow: 3,
+          },
+        },
+        {
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2.1,
+          },
+        },
+      ],
+    });
+  });
+</script>
+<script>
+  $(document).ready(function () {
+    $(".related-slider").slick({
+      rtl: true,
+      infinite: true,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      arrows: true,
+      appendArrows: $(".product-related-arrow"),
+      prevArrow:
+        '<div class="custom-arrow-right"><img src="./images/right.svg"/></div>',
+      nextArrow:
+        '<div class="custom-arrow-right"><img src="./images/left.svg"/></div>',
+      dots: false,
+      speed: 300,
+      autoplay: false,
+      cssEase: "ease-in-out",
+      responsive: [
+        {
+          breakpoint: 1200,
+          settings: {
+            slidesToShow: 3,
+          },
+        },
+        {
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2.1,
+            arrows: false,
+          },
+        },
+      ],
+    });
+  });
+</script>
